@@ -1,0 +1,11 @@
+Bulk mode; whois.cymru.com [2017-11-17 18:13:40 +0000]
+4808    | 123.125.114.144  | 123.125.64.0/18     | CN | apnic    | 2007-01-29 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 61.135.157.156   | 61.135.128.0/19     | CN | apnic    | 1999-06-24 | CHINA169-BJ China Unicom Beijing Province Network, CN
+14907   | 208.80.154.224   | 208.80.152.0/22     | US | arin     | 2007-07-23 | WIKIMEDIA - Wikimedia Foundation Inc., US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.46    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+16509   | 54.239.26.128    | 54.239.16.0/20      | US | arin     | 2012-03-01 | AMAZON-02 - Amazon.com, Inc., US
+32934   | 31.13.71.36      | 31.13.71.0/24       | IE | ripencc  | 2011-04-18 | FACEBOOK - Facebook, Inc., US
+36646   | 98.138.252.38    | 98.138.0.0/16       | US | arin     | 2007-12-07 | YAHOO-NE1 - Yahoo, US
+37963   | 140.205.130.99   | 140.205.128.0/18    | CN | apnic    | 2011-03-11 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+54113   | 151.101.193.140  | 151.101.192.0/22    | US | arin     | 2016-02-01 | FASTLY - Fastly, US
