@@ -3,9 +3,6 @@ __author__ = 'Pratik'
 import sys
 import copy
 
-count = 0
-
-
 # def loadRelationFile(filename):
 #     topology = {}
 #     with open(filename,'r') as file:
@@ -99,8 +96,6 @@ def allPathsDFS(topology, source, dest, visited, paths, currentPath):
             # for asn in topology[source][0]:
             for asn in topology[source]:
                 if asn not in visited:
-                    count += 1
-                    print(count)
                     allPathsDFS(topology, asn, dest, visited, paths, currentPath)
         currentPath.pop()
         visited.remove(source)
@@ -126,14 +121,18 @@ def getValues(exitASes, serverASes, suspectASes, allPaths):
 
 if __name__ == '__main__':
     sys.setrecursionlimit(60000)
-    filename = input('Enter AS relation filepath: ')
-    exits = input('Enter list of exit ASes (comma separated values): ')
+    # filename = input('Enter AS relation filepath: ')
+    filename = './20171001.as-rel.txt'
+    # exits = input('Enter list of exit ASes (comma separated values): ')
+    exits = '3462,6830,8437,12389,12876,14061,20473,29998,31261,33920,34224,51167,62744,197922,201702'
     exitASes = exits.split(',')
 
-    servers = input('Enter list of server ASes (comma separated values): ')
+    # servers = input('Enter list of server ASes (comma separated values): ')
+    servers = '4808,14907,15169,16509,32934,36646,37963,54113,13414'
     serverASes = servers.split(',')
 
-    suspects = input('Enter list of suspect ASes (comma separated values): ')
+    # suspects = input('Enter list of suspect ASes (comma separated values): ')
+    suspects = '3356,174,1299,2914,3257,6762,6453,6939,2828,1273'
     suspectASes = suspects.split(',')
 
     # read topology
@@ -189,4 +188,4 @@ if __name__ == '__main__':
 
 
 # E:\StudyStuff\Capstone\Papers\De_try\20171001.as-rel.txt
-# 
+#
