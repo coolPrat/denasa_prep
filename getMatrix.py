@@ -3,6 +3,12 @@ __author__ = 'Pratik'
 import sys
 import copy
 
+topology = {}
+visited = set()
+paths = []
+currentPath = []
+
+
 # def loadRelationFile(filename):
 #     topology = {}
 #     with open(filename,'r') as file:
@@ -52,7 +58,8 @@ import copy
 
 
 def loadRelationFile(filename):
-    topology = {}
+    # topology = {}
+    global topology
     with open(filename,'r') as file:
         for line in file:
             if line.startswith('#'):
@@ -65,12 +72,16 @@ def loadRelationFile(filename):
             toAS = lineParts[1].strip()
             edgeType = int(lineParts[2].strip()) # -1: provider-customer; 0: peer-to-peer
             if fromAS not in topology:
-                topology[fromAS] = []
-            topology[fromAS].append(toAS)
+                # topology[fromAS] = []
+                topology[fromAS] = set()
+            # topology[fromAS].append(toAS)
+            topology[fromAS].add(toAS)
             if toAS not in topology:
-                topology[toAS] = []
+                # topology[toAS] = []
+                topology[toAS] = set()
                 if edgeType == 0:
-                    topology[toAS].append(fromAS)
+                    # topology[toAS].append(fromAS)
+                    topology[toAS].add(fromAS)
         print("Number of ASes: " + str(len(topology)))
         return topology
 
@@ -78,17 +89,17 @@ def loadRelationFile(filename):
 
 
 def getAllPaths(topology, source, dest):
-    visited = set()
-    paths = []
-    currentPath = []
-    allPathsDFS(topology, source, dest, visited, paths, currentPath)
-    return paths
+    # visited = set()
+    # paths = []
+    # currentPath = []
+    # allPathsDFS(topology, source, dest, visited, paths, currentPath)
+    allPathsDFS(source, dest)
+    # return paths
 
-def allPathsDFS(topology, source, dest, visited, paths, currentPath):
+# def allPathsDFS(topology, source, dest, visited, paths, currentPath):
+def allPathsDFS(source, dest):
         visited.add(source)
         currentPath.append(source)
-        global count
-
         if source == dest:
             print(currentPath)
             paths.append(copy.copy(currentPath))
@@ -96,7 +107,7 @@ def allPathsDFS(topology, source, dest, visited, paths, currentPath):
             # for asn in topology[source][0]:
             for asn in topology[source]:
                 if asn not in visited:
-                    allPathsDFS(topology, asn, dest, visited, paths, currentPath)
+                    allPathsDFS(asn, dest)
         currentPath.pop()
         visited.remove(source)
 
@@ -163,16 +174,19 @@ if __name__ == '__main__':
             paths = getAllPaths(topology, exitAS, serverAS)
             print('got paths for ' + exitAS + ' -> ' + serverAS)
             allPaths[exitAS][serverAS] = paths
+            with open('./path_' + str(exitAS) + '_' + str(serverAS), 'a+') as pathFile:
+                for path in paths:
+                    pathFile.write('->'.join(path) + '\n\n')
     print('all paths done')
 
-    for exitASN in allPaths.keys():
-        print('AS: ' + exitASN)
-        paths = allPaths[exitASN]
-        for serverANS in paths.keys():
-            print('server: ' + serverANS)
-            with open('./path_' + str(exitASN) + '_' + str(serverANS), 'a+') as pathFile:
-                for path in allPaths[exitASN][serverANS]:
-                    pathFile.write('->'.join(path) + '\n')
+    # for exitASN in allPaths.keys():
+    #     print('AS: ' + exitASN)
+    #     paths = allPaths[exitASN]
+    #     for serverANS in paths.keys():
+    #         print('server: ' + serverANS)
+    #         with open('./path_' + str(exitASN) + '_' + str(serverANS), 'a+') as pathFile:
+    #             for path in allPaths[exitASN][serverANS]:
+    #                 pathFile.write('->'.join(path) + '\n')
 
 
     # get values
