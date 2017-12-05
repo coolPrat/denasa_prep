@@ -1,0 +1,203 @@
+Bulk mode; whois.cymru.com [2017-12-04 03:58:34 +0000]
+714     | 17.172.224.47    | 17.168.0.0/13       | US | arin     | 1990-04-16 | APPLE-ENGINEERING - Apple Inc., US
+1313    | 192.147.130.204  | 192.147.130.0/24    | US | arin     | 1992-05-12 | ADOBE1-AS-AS - Adobe Systems Inc., US
+2510    | 202.248.110.184  | 202.248.0.0/16      | JP | apnic    | 1995-03-29 | INFOWEB FUJITSU LIMITED, JP
+2635    | 192.0.78.17      | 192.0.78.0/24       | US | arin     | 2012-11-20 | AUTOMATTIC - Automattic, Inc, US
+2818    | 212.58.244.22    | 212.58.224.0/19     | GB | ripencc  | 1999-10-08 | BBC BBC Internet Services, UK, GB
+2818    | 212.58.246.79    | 212.58.224.0/19     | GB | ripencc  | 1999-10-08 | BBC BBC Internet Services, UK, GB
+3257    | 23.208.36.175    | 23.208.32.0/19      | US | arin     | 2013-07-12 | GTT-BACKBONE GTT, DE
+3630    | 199.109.99.136   | 199.109.99.0/24     | US | arin     | 1994-01-11 | NYSERNET-BLK - NYSERNet, US
+4134    | 124.225.65.154   | 124.225.0.0/16      | CN | apnic    | 2006-05-31 | CHINANET-BACKBONE No.31,Jin-rong Street, CN
+4713    | 210.163.219.24   | 210.163.0.0/16      | JP | apnic    | 1997-08-04 | OCN NTT Communications Corporation, JP
+4808    | 123.103.5.94     | 123.103.4.0/22      | CN | apnic    | 2006-12-06 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 123.125.104.197  | 123.125.64.0/18     | CN | apnic    | 2007-01-29 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 123.125.114.144  | 123.125.64.0/18     | CN | apnic    | 2007-01-29 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 123.126.51.90    | 123.126.0.0/18      | CN | apnic    | 2007-01-29 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 202.108.119.193  | 202.108.64.0/18     | CN | apnic    | 1998-08-17 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 202.108.33.60    | 202.108.0.0/18      | CN | apnic    | 1998-08-17 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4808    | 61.135.157.156   | 61.135.128.0/19     | CN | apnic    | 1999-06-24 | CHINA169-BJ China Unicom Beijing Province Network, CN
+4837    | 42.236.9.70      | 42.224.0.0/12       | CN | apnic    | 2011-02-17 | CHINA169-BACKBONE CHINA UNICOM China169 Backbone, CN
+5602    | 212.97.32.174    | 212.97.32.0/19      | IT | ripencc  | 1999-06-29 | Internet Service Provider, IT
+6623    | 64.30.228.118    | 64.30.228.0/23      | US | arin     | 2001-05-03 | CBSI-1 - CBS Interactive Inc., US
+7162    | 200.221.2.45     | 200.221.0.0/18      | BR | lacnic   | 2000-04-03 | Universo Online S.A., BR
+7743    | 159.53.116.62    | 159.53.96.0/19      | US | arin     | 1992-03-06 | AS-7743 - JPMorgan Chase & Co., US
+8068    | 204.79.197.200   | 204.79.197.0/24     | US | arin     | 1994-12-15 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+8068    | 204.79.197.212   | 204.79.197.0/24     | US | arin     | 1994-12-15 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+8075    | 104.43.195.251   | 104.40.0.0/13       | US | arin     | 2014-05-07 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+8075    | 13.82.28.61      | 13.64.0.0/11        | US | arin     | 2015-03-26 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+8075    | 40.117.226.146   | 40.64.0.0/10        | US | arin     | 2015-02-23 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+8075    | 40.84.199.233    | 40.64.0.0/10        | US | arin     | 2015-02-23 | MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation, US
+8137    | 199.181.132.250  | 199.181.132.0/24    | US | arin     | 1994-03-28 | DISNEYONLINE-AS - Disney Online, US
+9583    | 223.31.160.61    | 223.31.160.0/24     | IN | apnic    | 2010-08-30 | SIFY-AS-IN Sify Limited, IN
+9752    | 163.53.78.128    | 163.53.78.0/24      | IN | apnic    | 2014-07-09 | FKNET-IN Flipkart Internet Pvt Ltd, IN
+9808    | 221.179.178.112  | 221.179.176.0/21    | CN | apnic    | 2003-09-09 | CMNET-GD Guangdong Mobile Communication Co.Ltd., CN
+9924    | 103.23.108.107   | 103.23.108.0/22     | TW | apnic    | 2011-11-22 | TFN-TW Taiwan Fixed Network, Telco and Network Service Provider., TW
+11643   | 66.135.209.52    | 66.135.192.0/19     | US | arin     | 2001-07-13 | EBAY - eBay, Inc, US
+11643   | 66.211.185.77    | 66.211.176.0/20     | US | arin     | 2006-01-25 | EBAY - eBay, Inc, US
+11643   | 66.211.185.77    | 66.211.176.0/20     | US | arin     | 2006-01-25 | EBAY - eBay, Inc, US
+12008   | 204.74.99.100    | 204.74.99.0/24      | US | arin     | 1994-10-26 | ULTRADNS - NeuStar, Inc., US
+13213   | 146.185.29.109   | 146.185.16.0/20     | GB | ripencc  | 2011-07-12 | UK2NET-AS, GB
+13238   | 77.88.55.60      | 77.88.55.0/24       | RU | ripencc  | 2007-03-15 | YANDEX, RU
+13335   | 104.16.118.25    | 104.16.112.0/20     | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.16.120.221   | 104.16.112.0/20     | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.16.147.241   | 104.16.144.0/20     | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.16.166.50    | 104.16.160.0/20     | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.16.58.5      | 104.16.48.0/20      | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.20.0.4       | 104.20.0.0/20       | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.20.72.110    | 104.20.64.0/20      | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13335   | 104.27.217.28    | 104.27.208.0/20     | US | arin     | 2014-03-28 | CLOUDFLARENET - Cloudflare, Inc., US
+13414   | 104.244.42.65    | 104.244.42.0/24     | US | arin     | 2014-12-08 | TWITTER - Twitter Inc., US
+13414   | 199.16.156.11    | 199.16.156.0/23     | US | arin     | 2010-07-09 | TWITTER - Twitter Inc., US
+14340   | 96.43.145.26     | 96.43.144.0/22      | US | arin     | 2010-08-23 | SALESFORCE - Salesforce.com, Inc., US
+14413   | 108.174.10.10    | 108.174.10.0/24     | US | arin     | 2012-01-11 | LINKEDIN - LinkedIn Corporation, US
+14413   | 108.174.10.19    | 108.174.10.0/24     | US | arin     | 2012-01-11 | LINKEDIN - LinkedIn Corporation, US
+14618   | 107.20.162.174   | 107.20.0.0/16       | US | arin     | 2011-05-03 | AMAZON-AES - Amazon.com, Inc., US
+14618   | 52.1.23.248      | 52.0.0.0/15         | US | arin     | 1991-12-19 | AMAZON-AES - Amazon.com, Inc., US
+14618   | 52.45.17.31      | 52.44.0.0/15        | US | arin     | 2015-09-02 | AMAZON-AES - Amazon.com, Inc., US
+14618   | 52.5.25.165      | 52.4.0.0/14         | US | arin     | 1991-12-19 | AMAZON-AES - Amazon.com, Inc., US
+14618   | 52.73.140.55     | 52.72.0.0/15        | US | arin     | 1991-12-19 | AMAZON-AES - Amazon.com, Inc., US
+14618   | 54.235.145.223   | 54.234.0.0/15       | US | arin     | 2012-03-01 | AMAZON-AES - Amazon.com, Inc., US
+14907   | 208.80.154.224   | 208.80.152.0/22     | US | arin     | 2007-07-23 | WIKIMEDIA - Wikimedia Foundation Inc., US
+15133   | 192.229.162.211  | 192.229.162.0/24    | US | arin     | 2013-02-07 | EDGECAST - MCI Communications Services, Inc. d/b/a Verizon Business, US
+15169   | 104.199.64.136   | 104.196.0.0/14      | US | arin     | 2014-08-27 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.35    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.41    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.41    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.46    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.46    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.10.46    | 172.217.10.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.11.35    | 172.217.11.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.11.35    | 172.217.11.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.11.35    | 172.217.11.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.11.35    | 172.217.11.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 172.217.11.35    | 172.217.11.0/24     | US | arin     | 2012-04-16 | GOOGLE - Google LLC, US
+15169   | 173.194.205.147  | 173.194.205.0/24    | US | arin     | 2009-08-17 | GOOGLE - Google LLC, US
+15169   | 173.194.205.94   | 173.194.205.0/24    | US | arin     | 2009-08-17 | GOOGLE - Google LLC, US
+16509   | 178.236.7.146    | 178.236.0.0/20      | IE | ripencc  | 2010-05-25 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 207.171.166.22   | 207.171.160.0/20    | US | arin     | 1999-09-23 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.10.10.82      | 52.10.0.0/15        | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.41.96.17      | 52.40.0.0/14        | US | arin     | 2015-09-02 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.85.91.27      | 52.85.88.0/22       | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 52.85.93.133     | 52.85.92.0/23       | US | arin     | 1991-12-19 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 54.230.51.175    | 54.230.48.0/22      | US | arin     | 2012-03-01 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 54.239.26.128    | 54.239.16.0/20      | US | arin     | 2012-03-01 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 54.239.32.138    | 54.239.32.0/24      | US | arin     | 2012-03-01 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 54.239.32.8      | 54.239.32.0/24      | US | arin     | 2012-03-01 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 54.239.36.155    | 54.239.36.0/24      | US | arin     | 2012-03-01 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 54.240.252.0     | 54.240.248.0/21     | US | arin     | 2011-12-09 | AMAZON-02 - Amazon.com, Inc., US
+16509   | 72.21.206.80     | 72.21.192.0/19      | US | arin     | 2004-12-30 | AMAZON-02 - Amazon.com, Inc., US
+16625   | 23.194.111.124   | 23.194.108.0/22     | US | arin     | 2013-07-12 | AKAMAI-AS - Akamai Technologies, Inc., US
+17012   | 64.4.250.32      | 64.4.250.0/24       | US | arin     | 2003-02-25 | PAYPAL - PayPal, Inc., US
+17184   | 66.29.212.110    | 66.29.192.0/19      | US | arin     | 2006-12-22 | ATL-CBEYOND - CBEYOND COMMUNICATIONS, LLC, US
+17374   | 161.170.244.20   | 161.170.244.0/22    | US | arin     | 1993-01-04 | WALMART - Wal-Mart Stores Inc., US
+17451   | 182.253.224.184  | 182.253.224.0/24    | ID | apnic    | 2010-05-10 | BIZNET-AS-AP BIZNET NETWORKS, ID
+18182   | 219.85.79.131    | 219.85.64.0/18      | TW | apnic    | 2003-11-25 | SONET-TW Sony Network Taiwan Limited, TW
+19324   | 69.172.201.47    | 69.172.201.0/24     | CA | arin     | 2009-03-17 | DOSARREST - Dosarrest Internet Security LTD, US
+19679   | 162.125.248.1    | 162.125.248.0/24    | US | arin     | 2015-11-20 | DROPBOX - Dropbox, Inc., US
+22414   | 208.82.237.129   | 208.82.236.0/22     | US | arin     | 2007-09-26 | CRAIGS-NET-1 - Craigslist, Inc., US
+23576   | 125.209.222.141  | 125.209.220.0/22    | KR | apnic    | 2010-11-18 | NHN-AS-KR NBP, KR
+23724   | 101.254.216.10   | 101.254.216.0/22    | CN | apnic    | 2011-01-24 | CHINANET-IDC-BJ-AP IDC, China Telecommunications Corporation, CN
+23724   | 106.39.167.118   | 106.39.160.0/19     | CN | apnic    | 2011-03-18 | CHINANET-IDC-BJ-AP IDC, China Telecommunications Corporation, CN
+23724   | 123.103.5.94     | 123.103.4.0/22      | CN | apnic    | 2006-12-06 | CHINANET-IDC-BJ-AP IDC, China Telecommunications Corporation, CN
+23724   | 180.149.131.31   | 180.149.128.0/19    | CN | apnic    | 2009-09-01 | CHINANET-IDC-BJ-AP IDC, China Telecommunications Corporation, CN
+23724   | 36.110.213.49    | 36.110.192.0/19     | CN | apnic    | 2011-01-17 | CHINANET-IDC-BJ-AP IDC, China Telecommunications Corporation, CN
+23816   | 182.22.59.229    | 182.22.0.0/17       | JP | apnic    | 2010-02-10 | YAHOO Yahoo Japan Corporation, JP
+23820   | 133.237.61.176   | 133.237.0.0/17      | JP | apnic    | 1997-03-01 | RAKUTEN Rakuten,Inc., JP
+24211   | 203.190.242.211  | 203.190.242.0/23    | ID | apnic    | 2005-09-01 | DETIK-AS-ID PT. Detik Ini JUga, ID
+26101   | 66.6.33.31       | 66.6.32.0/23        | US | arin     | 2011-04-25 | YAHOO-3 - Yahoo!, US
+26496   | 104.238.65.160   | 104.238.64.0/23     | US | arin     | 2014-11-13 | AS-26496-GO-DADDY-COM-LLC - GoDaddy.com, LLC, US
+26496   | 184.168.221.7    | 184.168.221.0/24    | US | arin     | 2010-09-21 | AS-26496-GO-DADDY-COM-LLC - GoDaddy.com, LLC, US
+27257   | 69.42.65.36      | 69.42.64.0/20       | US | arin     | 2003-04-25 | WEBAIR-INTERNET - Webair Internet Development Company Inc., US
+28604   | 186.192.90.5     | 186.192.80.0/20     | BR | lacnic   | 2010-04-12 | Globo Comunicação e Participaçoes SA, BR
+29302   | 146.185.29.109   | 146.185.16.0/20     | GB | ripencc  | 2011-07-12 | HSI-EUROPE, GB
+32934   | 31.13.71.36      | 31.13.71.0/24       | IE | ripencc  | 2011-04-18 | FACEBOOK - Facebook, Inc., US
+32934   | 31.13.71.36      | 31.13.71.0/24       | IE | ripencc  | 2011-04-18 | FACEBOOK - Facebook, Inc., US
+33047   | 192.33.31.56     | 192.33.31.0/24      | US | arin     | 2012-11-12 | INSTART - Instart Logic, Inc, US
+34655   | 109.71.161.200   | 109.71.161.0/24     | PT | ripencc  | 2009-11-23 | DOCLER-AS, HU
+35415   | 194.187.98.222   | 194.187.96.0/22     | NL | ripencc  | 2005-08-03 | WEBZILLA, NL
+35415   | 194.187.98.224   | 194.187.96.0/22     | NL | ripencc  | 2005-08-03 | WEBZILLA, NL
+36351   | 169.45.207.200   | 169.45.192.0/18     | US | ripencc  | 1993-09-01 | SOFTLAYER - SoftLayer Technologies Inc., US
+36351   | 192.155.212.202  | 192.155.208.0/20    | US | arin     | 2013-01-16 | SOFTLAYER - SoftLayer Technologies Inc., US
+36459   | 192.30.253.113   | 192.30.253.0/24     | US | arin     | 2012-11-15 | GITHUB - GitHub, Inc., US
+36646   | 98.138.252.38    | 98.138.0.0/16       | US | arin     | 2007-12-07 | YAHOO-NE1 - Yahoo, US
+36856   | 63.245.215.20    | 63.245.208.0/20     | US | arin     | 2006-06-16 | MOZILLA-SCL3 - Mozilla Corporation, US
+37963   | 101.201.172.229  | 101.201.0.0/16      | CN | apnic    | 2011-01-24 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 110.75.139.5     | 110.75.138.0/23     | CN | apnic    | 2009-03-31 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 118.178.213.186  | 118.178.128.0/17    | CN | apnic    | 2007-10-18 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 121.42.17.239    | 121.42.17.0/24      | CN | apnic    | 2006-05-24 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 140.205.130.99   | 140.205.128.0/18    | CN | apnic    | 2011-03-11 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 140.205.134.248  | 140.205.128.0/18    | CN | apnic    | 2011-03-11 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 140.205.220.96   | 140.205.192.0/18    | CN | apnic    | 2011-03-11 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 42.156.140.12    | 42.156.128.0/18     | CN | apnic    | 2011-03-16 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+37963   | 59.110.149.245   | 59.110.128.0/17     | CN | apnic    | 2006-09-19 | CNNIC-ALIBABA-CN-NET-AP Hangzhou Alibaba Advertising Co.,Ltd., CN
+39572   | 88.208.18.30     | 88.208.0.0/18       | NL | ripencc  | 2005-10-24 | ADVANCEDHOSTERS-AS, NL
+41690   | 195.8.215.136    | 195.8.214.0/23      | FR | ripencc  | 2006-10-09 | DAILYMOTION For peering related business, please mail peering@dailymotion.com, FR
+43996   | 5.57.16.220      | 5.57.16.0/24        | NL | ripencc  | 2012-05-31 | BOOKING-BV Booking.com, NL
+44932   | 185.147.178.12   | 185.147.178.0/24    | IR | ripencc  | 2016-04-15 | SABAIDEA, IR
+45102   | 198.11.132.250   | 198.11.132.0/24     | US | arin     | 2013-04-23 | CNNIC-ALIBABA-CN-NET-AP Alibaba (China) Technology Co., Ltd., CN
+45102   | 205.204.101.42   | 205.204.101.0/24    | US | arin     | 2010-11-17 | CNNIC-ALIBABA-CN-NET-AP Alibaba (China) Technology Co., Ltd., CN
+45899   | 123.30.175.29    | 123.30.174.0/23     | VN | apnic    | 2007-01-11 | VNPT-AS-VN VNPT Corp, VN
+46179   | 205.196.120.6    | 205.196.120.0/22    | US | arin     | 2008-10-10 | MEDIAFIRE - MediaFire, LLC, US
+46652   | 141.0.174.30     | 141.0.172.0/22      | NL | ripencc  | 2011-06-21 | SERVERSTACK-ASN - ServerStack, Inc., US
+46652   | 185.88.181.45    | 185.88.180.0/22     | NL | ripencc  | 2015-02-18 | SERVERSTACK-ASN - ServerStack, Inc., US
+46652   | 185.88.181.7     | 185.88.180.0/22     | NL | ripencc  | 2015-02-18 | SERVERSTACK-ASN - ServerStack, Inc., US
+47541   | 87.240.165.80    | 87.240.128.0/18     | RU | ripencc  | 2009-12-23 | VKONTAKTE-SPB-AS http://vk.com, RU
+47764   | 217.20.147.1     | 217.20.144.0/20     | RU | ripencc  | 2010-08-30 | MAILRU-AS Mail.Ru, RU
+47764   | 217.69.139.200   | 217.69.128.0/20     | RU | ripencc  | 2009-03-20 | MAILRU-AS Mail.Ru, RU
+48684   | 31.192.120.36    | 31.192.112.0/20     | NL | ripencc  | 2011-04-21 | VIKINGHOST, NL
+48684   | 67.22.32.113     | 67.22.32.0/20       | NL | ripencc  | 2009-02-13 | VIKINGHOST, NL
+51773   | 46.28.209.62     | 46.28.208.0/22      | ES | ripencc  | 2010-07-26 | SOFTONIC-AS, ES
+53334   | 216.21.13.13     | 216.21.13.0/24      | US | arin     | 2015-05-21 | TUT-AS - Total Uptime Technologies, LLC, US
+53387   | 216.33.197.79    | 216.33.197.0/24     | US | arin     | 1998-07-30 | MELI-ASN-1 - MercadoLibre Inc., US
+54113   | 151.101.0.84     | 151.101.0.0/22      | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.0.84     | 151.101.0.0/22      | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.1.111    | 151.101.0.0/22      | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.1.69     | 151.101.0.0/22      | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.1.69     | 151.101.0.0/22      | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.128.194  | 151.101.128.0/22    | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.129.224  | 151.101.128.0/22    | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.193.140  | 151.101.192.0/22    | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.193.67   | 151.101.192.0/22    | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.20.193   | 151.101.20.0/22     | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.202.110  | 151.101.200.0/22    | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.64.175   | 151.101.64.0/22     | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.64.217   | 151.101.64.0/22     | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.65.140   | 151.101.64.0/22     | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54113   | 151.101.65.164   | 151.101.64.0/22     | US | arin     | 2016-02-01 | FASTLY - Fastly, US
+54994   | 220.243.205.152  | 220.243.205.0/24    | CN | apnic    | 2006-08-25 | QUANTILNETWORKS - QUANTIL NETWORKS INC, US
+54994   | 63.159.216.112   | 63.159.216.0/24     | US | arin     | 2000-07-12 | QUANTILNETWORKS - QUANTIL NETWORKS INC, US
+56308   | 180.240.134.85   | 180.240.134.0/24    | SG | apnic    | 2009-10-20 | TELIN-NET-SG TELEKOMUNIKASI INDONESIA INTERNATIONAL, PTE.LTD, SG
+201012  | 185.89.12.132    | 185.89.12.0/22      | RU | ripencc  | 2015-02-20 | AVITO, RU
+206672  | 185.179.62.2     | 185.179.60.0/22     | AT | ripencc  | 2016-11-25 | GOLDBET-AS, AT

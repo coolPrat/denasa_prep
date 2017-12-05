@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta charset='UTF-8'>
+  <meta content="global autonomous system database, global IP address database, whoise, radb, AS path inference, prefix reachability, ISP evaluation, ISP connectivity database" name="keywords" />
+<meta content="BGPVista, comprehensive AS-level information query tool" name="description" />
+  <title>
+BGPVista::AS-Path Inference  </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/docs.css" rel="stylesheet" media="screen">
+</head>
+
+<body style='background-color: #fdfaf5;'>
+
+<div class="navbar navbar-static-top navbar-inverse">
+<div class="navbar-inner"><ul class="nav">
+<li><a href="index.php"><i class="icon-home"></i> Home</a></li><li><a href="asquery.php">ASes</a></li><li><a href="filter.php">Prefixes</a></li><li class="active"><a href="#">AS-Prefix Path</a></li></ul></div></div>
+<table border=0 width='100%' style='background-color: #fdfaf5;'><tr><td width=212><img src="images/bgpvista2.png" border="0"></td><td valign=middle style='padding:20px;'><div class='navbar'><form action="" method="POST" target="" class='navbar-form pull-left'><input type="text" size="16" name="SRCASN" value="AS3462" placeholder="AS or host (AS1239, www.google.com)" /><span class='help-inline'><i class='icon-arrow-right'></i>&nbsp;</span><input type="text" size="16" name="DSTPREFIX" value="172.217.10.46" placeholder="Destination prefix or host (128.119.0.0, www.yahoo.com)" /><input type="hidden" name="FUNCTION" value="QUERY" />
+<input type="hidden" name="COMPFUNC" value="LUF" /><button type="submit" class="btn">Query</button></form></div></td></tr></table><div class='container' style='padding-top:20px;'><span class='brand'>Source AS: <strong>3462</strong>&nbsp;Destination: <strong>172.217.0.0</strong><br/><p><small><tr><td colspan=4>Time cost: 13.87 seconds. Data collected from <a href="http://www.routeviews.org">ROUTEVIEWS</a> at Jul 25 2017 08:00:00.</small></p></span><table border=0 width=100%><tr><td valign="top"><table class='table'><tr><td><a href="JavaScript:query(3462)">3462</a> <b><a href="JavaScript:query(6453)">6453</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <b><a href="JavaScript:query(2914)">2914</a></b> <b><a href="JavaScript:query(6453)">6453</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(9680)">9680</a> <b><a href="JavaScript:query(3356)">3356</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(9505)">9505</a> <b><a href="JavaScript:query(3356)">3356</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(38861)">38861</a> <b><a href="JavaScript:query(3356)">3356</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(4657)">4657</a> <b><a href="JavaScript:query(3356)">3356</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(4637)">4637</a> <b><a href="JavaScript:query(3356)">3356</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(3491)">3491</a> <b><a href="JavaScript:query(3356)">3356</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(7473)">7473</a> <b><a href="JavaScript:query(3257)">3257</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(15412)">15412</a> <b><a href="JavaScript:query(3257)">3257</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(20940)">20940</a> <b><a href="JavaScript:query(3257)">3257</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td><tr><td><a href="JavaScript:query(3462)">3462</a> <a href="JavaScript:query(17408)">17408</a> <b><a href="JavaScript:query(6939)">6939</a></b> <b><a href="JavaScript:query(15169)">15169</a></b> </tr></td></table><form action="asquery.php" method="POST" name="asquery">
+<input type="hidden" name="QUERYSTRING" value="">
+</form>
+<script language="JavaScript">
+<!--
+function query(asn)
+{
+  document.asquery.QUERYSTRING.value = "" + asn;
+  document.asquery.submit();
+}
+//-->
+</script>
+</td><td width=660 id="svgcanvas" valign="top"><script>var graph={"nodes":[{"name":"3462","group":5,"r":20},{"name":"6453","group":3,"r":20},{"name":"15169","group":2,"r":20},{"name":"p","group":1,"r":10},{"name":"2914","group":3,"r":20},{"name":"9680","group":4,"r":20},{"name":"3356","group":3,"r":20},{"name":"9505","group":4,"r":20},{"name":"38861","group":4,"r":20},{"name":"4657","group":4,"r":20},{"name":"4637","group":4,"r":20},{"name":"3491","group":4,"r":20},{"name":"7473","group":4,"r":20},{"name":"3257","group":3,"r":20},{"name":"15412","group":4,"r":20},{"name":"20940","group":4,"r":20},{"name":"17408","group":4,"r":20},{"name":"6939","group":3,"r":20}],"links":[{"source":0,"target":1,"value":4},{"source":1,"target":2,"value":4},{"source":2,"target":3,"value":1},{"source":0,"target":4,"value":4},{"source":4,"target":1,"value":4},{"source":0,"target":5,"value":2},{"source":5,"target":6,"value":4},{"source":6,"target":2,"value":4},{"source":0,"target":7,"value":2},{"source":7,"target":6,"value":4},{"source":0,"target":8,"value":2},{"source":8,"target":6,"value":4},{"source":0,"target":9,"value":2},{"source":9,"target":6,"value":4},{"source":0,"target":10,"value":2},{"source":10,"target":6,"value":4},{"source":0,"target":11,"value":2},{"source":11,"target":6,"value":4},{"source":0,"target":12,"value":2},{"source":12,"target":13,"value":4},{"source":13,"target":2,"value":4},{"source":0,"target":14,"value":2},{"source":14,"target":13,"value":4},{"source":0,"target":15,"value":2},{"source":15,"target":13,"value":4},{"source":0,"target":16,"value":2},{"source":16,"target":17,"value":4},{"source":17,"target":2,"value":4}]};</script><style>
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+text {
+  font: 12px sans-serif;
+}
+</style>
+<script src="js/d3.v3.min.js"></script>
+<script>
+    var width=660;
+    var height=660;
+
+    var color = d3.scale.category20();
+
+    var force = d3.layout.force()
+                        .charge(-600)
+                        .linkDistance(30)
+                        .size([width, height]);
+
+    var svg = d3.select("#svgcanvas").append("svg")
+                        .attr("width", width)
+                        .attr("height", height);
+
+    force.nodes(graph.nodes).links(graph.links).start()
+
+    var link = svg.selectAll(".link")
+                            .data(graph.links)
+                            .enter().append("line")
+                            .attr("class", "link")
+                            .style("stroke-width",
+                                    function(d) {
+                                        return Math.sqrt(d.value);
+                                    });
+
+    var node = svg.selectAll(".node")
+                            .data(graph.nodes)
+                            .enter().append("g")
+                            .attr("class", "node")
+                            .call(force.drag);
+
+    var circle = node.append("circle")
+                            .attr("r", function(d) { return d.r; })
+                            .style("fill", function(d) { return color(d.group); });
+
+    var text = node.append("text")
+                        .attr("dy", ".3em")
+                        .style("text-anchor", "middle")
+                        .text(function(d){return d.name})
+
+    force.on("tick", function() {
+        link.attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; });
+
+        node.attr("transform", function(d) {
+            return "translate(" + d.x + "," + d.y + ")"; });
+        });
+
+</script>
+</td></tr></table></div>
+<footer class="footer"><div class="container">
+<p align=center>
+Copyright &copy; 2006-2012 bgpVista.com. All rights reserved.
+</p>
+<ul class="footer-links">
+<li><a href="simbgp.php">simBGP</a></li>
+<li class="muted">&middot;</li>
+<li><a href="about.php">About</a></li>
+<li class="muted">&middot;</li>
+<li><a href="https://github.com/swordqiu/ASPathInference">Github project</a></li>
+<li class="muted">&middot;</li>
+<li><a href="feedback.php">Feedback</a></li>
+</ul>
+<p align=center><a href="http://www.miitbeian.gov.cn" target=new><font color='#CCCCCC' size=1>ICP13034664</font></a> <font color='#CCCCCC' size=1>å¬ç½å®å¤11010102001046å·</font></p>
+</div></footer>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37558828-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -7,6 +7,7 @@ topology = {}
 visited = set()
 paths = []
 currentPath = []
+count = 0
 
 
 # def loadRelationFile(filename):
@@ -98,11 +99,15 @@ def getAllPaths(topology, source, dest):
 
 # def allPathsDFS(topology, source, dest, visited, paths, currentPath):
 def allPathsDFS(source, dest):
+        global count
         visited.add(source)
         currentPath.append(source)
         if source == dest:
-            print(currentPath)
+            count += 1
+            # print(currentPath)
             paths.append(copy.copy(currentPath))
+            with open('./path_' + str(exitAS) + '_' + str(serverAS), 'a+') as pathFile:
+                pathFile.write('->'.join(currentPath) + '\n\n')
         else:
             # for asn in topology[source][0]:
             for asn in topology[source]:
@@ -171,12 +176,15 @@ if __name__ == '__main__':
     for exitAS in exitASes:
         allPaths[exitAS] = dict()
         for serverAS in serverASes:
-            paths = getAllPaths(topology, exitAS, serverAS)
+            # paths = getAllPaths(topology, exitAS, serverAS)
+            getAllPaths(topology, exitAS, serverAS)
             print('got paths for ' + exitAS + ' -> ' + serverAS)
             allPaths[exitAS][serverAS] = paths
-            with open('./path_' + str(exitAS) + '_' + str(serverAS), 'a+') as pathFile:
-                for path in paths:
-                    pathFile.write('->'.join(path) + '\n\n')
+            paths = []
+            currentPath = []
+            # with open('./path_' + str(exitAS) + '_' + str(serverAS), 'a+') as pathFile:
+            #     for path in allPaths[exitAS][serverAS]:
+            #         pathFile.write('->'.join(path) + '\n\n')
     print('all paths done')
 
     # for exitASN in allPaths.keys():
