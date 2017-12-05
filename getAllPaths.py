@@ -130,11 +130,13 @@ if __name__ == '__main__':
         print('Invalid servers file')
     else:
         serversList = servers[0].split(',')
-    # getAllPaths(exitASes[0:2], serversList[0:5])
 
     suspects = input('Enter the list of suspect ASes')
     suspectASes = suspects.split(',')
-    values = getValues(exitASes[0:2], serversList[0:5], suspectASes, './output/paths')
+
+    getAllPaths(exitASes, serversList)
+
+    values = getValues(exitASes, serversList, suspectASes, './output/paths')
     writeValues(values)
 
 
