@@ -124,20 +124,20 @@ if __name__ == '__main__':
     else:
         exitASes = exits[0].split(',')
 
-    # serverPath = input('Enter path of servers: ')
-    # servers = open(serverPath, 'r+').readlines()
-    # if len(servers) != 1:
-    #     print('Invalid servers file')
-    # else:
-    #     serversList = servers[0].split(',')
+    serverPath = input('Enter path of servers: ')
+    servers = open(serverPath, 'r+').readlines()
+    if len(servers) != 1:
+        print('Invalid servers file')
+    else:
+        serversList = servers[0].split(',')
 
-    # suspects = input('Enter the list of suspect ASes')
-    # suspectASes = suspects.split(',')
-    #
-    # getAllPaths(exitASes, serversList)
-    #
-    # values = getValues(exitASes, serversList, suspectASes, './output/paths')
-    # writeValues(values)
+    suspects = input('Enter the list of suspect ASes')
+    suspectASes = suspects.split(',')
+
+    getAllPaths(exitASes, serversList)
+
+    values = getValues(exitASes, serversList, suspectASes, './output/paths')
+    writeValues(values)
 
     # i = 0
     # count = 1
@@ -149,6 +149,6 @@ if __name__ == '__main__':
 
 
 
-#     ./output/exitASes.txt
+#     ./output/exitASes_1.txt
 #     ./output/destinations.txt
 #     3356,174,1299,2914,3257,6762,6453,6939,2828,1273
