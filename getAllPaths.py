@@ -106,8 +106,8 @@ def getValues(exitASes, servers, suspectASes, allPathsFile):
     return values
 
 
-def writeValues(values):
-    with open('./output/values/posibilities.txt', 'a+') as posibilities:
+def writeValues(values, count):
+    with open('./output/values/posibilities_' + str(count) + '.txt', 'a+') as posibilities:
         for key in values.keys():
             for key2 in values[key]:
                 posibilities.write(key + ',' + key2 + ',' + str(values[key][key2]) + '\n')
@@ -134,10 +134,12 @@ if __name__ == '__main__':
     suspects = input('Enter the list of suspect ASes')
     suspectASes = suspects.split(',')
 
+    count = input('Enter count: ')
+
     getAllPaths(exitASes, serversList)
 
     values = getValues(exitASes, serversList, suspectASes, './output/paths')
-    writeValues(values)
+    writeValues(values, count)
 
     # i = 0
     # count = 1
@@ -149,6 +151,6 @@ if __name__ == '__main__':
 
 
 
-#     ./output/exitASes_1.txt
+#     ./output/exitASes_3.txt
 #     ./output/destinations.txt
 #     3356,174,1299,2914,3257,6762,6453,6939,2828,1273
